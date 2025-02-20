@@ -350,7 +350,8 @@ form {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: start;
+  text-align: center;
+  font-style: italic;
   gap: 20px;
   padding: 240px;
   background-color: #1e3c7e;
@@ -576,6 +577,8 @@ form {
 
   .quotes {
     padding: 160px;
+    text-align: center;
+    font-style: italic;
   }
 
   .cards {
@@ -618,13 +621,12 @@ form {
 
   .nav {
     display: none;
+  }
+  .nav.open {
+    display: flex;
     flex-direction: column;
     gap: 10px;
     width: 100%;
-  }
-
-  .nav.active {
-    display: flex;
   }
 
   .top-bar {
@@ -659,6 +661,7 @@ form {
   }
 
   .middle {
+    height: fit-content;
     padding: 40px;
   }
 
@@ -674,6 +677,10 @@ form {
     grid-template-columns: 1fr;
     padding: 0px 20px;
   }
+  .products img {
+    width: 90%;
+    height: auto;
+  }
 
   .getQuote {
     grid-template-columns: 1fr;
@@ -685,7 +692,10 @@ form {
   }
 
   .quotes {
-    padding: 80px;
+    padding: 48px 20px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 200;
   }
 
   .cards {
@@ -697,7 +707,7 @@ form {
   }
 
   .card img {
-    width: 100%;
+    width: 90%;
     height: auto;
   }
 

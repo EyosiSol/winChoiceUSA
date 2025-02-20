@@ -1,6 +1,10 @@
-function toggleNav() {
-  var nav = document.getElementById("nav");
-  nav.classList.toggle("active");
-}
+document.addEventListener("DOMContentLoaded", () => {
+  // Select the hamburger button and the navigation menu
+  const hamburgerButton = document.querySelector(".hamburger");
+  const navMenu = document.querySelector(".nav");
 
-toggleNav();
+  // Toggle the "open" class on the navigation menu when the hamburger is clicked
+  hamburgerButton.addEventListener("click", () => {
+    navMenu.classList.toggle("open");
+  });
+});
