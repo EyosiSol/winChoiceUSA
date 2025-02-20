@@ -1,9 +1,16 @@
+/* Base Styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, sans-serif;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -15,30 +22,36 @@
   top: 0;
   z-index: 1000;
 }
+
 .logo {
   width: 30%;
   display: flex;
   align-items: center;
 }
+
 .logo img {
   height: 160px;
   margin-right: 10px;
 }
+
 .logo-text {
   font-size: 20px;
   font-weight: bold;
   color: #1d4ed8;
 }
+
 .right-section {
   width: 70%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .bottom-bar {
   width: 100%;
   display: flex;
 }
+
 .nav {
   background-color: #eff2f7;
   display: flex;
@@ -46,12 +59,14 @@
   padding: 16px 6px;
   width: 80%;
 }
+
 .nav a {
   text-decoration: none;
   color: #1d4ed8;
   font-weight: bold;
   padding: 5px 10px;
 }
+
 .top-bar {
   display: flex;
   width: 100%;
@@ -64,10 +79,12 @@
   padding: 10px 10px;
   font-weight: bold;
 }
+
 .top-bar div {
   width: 20%;
   text-align: center;
 }
+
 .contact {
   text-align: center;
   font-size: 16px;
@@ -75,7 +92,7 @@
   width: 20%;
 }
 
-/* Fotter */
+/* Footer */
 .footer {
   padding: 40px 0;
   background-color: #000;
@@ -108,12 +125,14 @@
   font-size: 2.8em;
   margin-bottom: 20px;
 }
+
 .hero .content {
   width: 540px;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
+
 .hero button {
   width: fit-content;
   padding: 16px 20px;
@@ -135,6 +154,7 @@
   padding: 120px;
   gap: 20px;
 }
+
 .middle h1 {
   font-size: 2.5em;
   margin-bottom: 20px;
@@ -143,6 +163,7 @@
   text-align: center;
   width: 80%;
 }
+
 .middle h4 {
   font-size: 1.5em;
   margin-bottom: 20px;
@@ -153,6 +174,7 @@
   font-weight: lighter;
   line-height: 1.2;
 }
+
 .middle button {
   width: fit-content;
   padding: 16px 20px;
@@ -172,12 +194,14 @@
   padding: 0px 0px 140px 0px;
   gap: 20px;
 }
+
 .products .windows {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding: 0px 180px;
   gap: 20px;
 }
+
 .products .windows .a-window {
   display: flex;
   flex-direction: column;
@@ -186,6 +210,7 @@
   margin: 10px;
   width: 100%;
 }
+
 .windows img {
   width: 380px;
   height: 360px;
@@ -203,6 +228,7 @@
   color: white;
   padding: 120px;
 }
+
 .getQuote .content {
   grid-column: 1;
 }
@@ -226,31 +252,37 @@ form {
   gap: 12px;
   width: 100%;
 }
+
 .form input {
   width: 100%;
   padding: 10px;
   border-radius: 5px;
   border: none;
 }
+
 .form .name {
   display: flex;
   gap: 10px;
 }
+
 .form p {
   color: white;
   font-size: 12px;
   font-weight: 500;
 }
+
 .form .checkbox {
   display: flex;
   gap: 5px;
 }
+
 .checkbox input {
   width: 24px;
   color: white;
   font-size: 12px;
   font-weight: 500;
 }
+
 .submit {
   margin-top: 20px;
   background-color: #ddd;
@@ -264,6 +296,7 @@ form {
   transition: 0.3s;
   width: fit-content;
 }
+
 .getQuote .content {
   display: flex;
   flex-direction: column;
@@ -278,25 +311,30 @@ form {
   text-align: start;
   width: 80%;
 }
+
 .getQuote .checks {
   display: flex;
   flex-direction: column;
   gap: 20px;
   align-items: start;
 }
+
 .getQuote .content .checks div {
   display: flex;
   font-size: 1.5rem;
   gap: 10px;
   align-items: center;
 }
+
 .checks div input {
   width: 24px;
   height: 24px;
 }
+
 .checks div label {
   font-size: 1.8rem;
 }
+
 .getQuote .content button {
   width: fit-content;
   background-color: #cc0000;
@@ -328,6 +366,7 @@ form {
   border: 1px solid #000;
   height: 1500px;
 }
+
 .cards h1 {
   font-size: 2.5em;
   color: #1e3c7e;
@@ -335,6 +374,7 @@ form {
   text-align: center;
   width: 100%;
 }
+
 .card {
   display: flex;
   flex-direction: row;
@@ -346,21 +386,25 @@ form {
   margin: 10px;
   width: fit-content;
 }
+
 .card .content {
   display: flex;
   flex-direction: column;
   gap: 10px;
   width: 50%;
 }
+
 .card .content h1 {
   font-size: 1.8rem;
   color: #1e3c7e;
 }
+
 .card .content h3 {
   font-size: 1.6rem;
   color: #555;
   font-weight: lighter;
 }
+
 .card img {
   width: 400px;
   height: 360px;
@@ -380,9 +424,11 @@ form {
   color: white;
   gap: 20px;
 }
+
 .cta h1 {
   width: 60%;
 }
+
 .cta button {
   width: fit-content;
   padding: 16px 20px;
@@ -392,6 +438,7 @@ form {
   color: white;
   font-weight: 600;
 }
+
 .footer-column {
   flex: 1;
   min-width: 200px;
@@ -449,4 +496,212 @@ form {
 
 .social-btn i {
   line-height: 40px;
+}
+
+/* Hamburger Menu */
+.hamburger {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Tablet Styles */
+@media (max-width: 1024px) {
+  .header {
+    padding: 10px;
+  }
+
+  .logo img {
+    height: 120px;
+  }
+
+  .logo-text {
+    font-size: 18px;
+  }
+
+  .nav {
+    width: 70%;
+    padding: 10px 5px;
+  }
+
+  .top-bar {
+    height: 80px;
+    padding: 5px;
+  }
+
+  .top-bar div {
+    width: 25%;
+  }
+
+  .contact {
+    font-size: 14px;
+  }
+
+  .hero {
+    padding: 80px;
+  }
+
+  .hero h1 {
+    font-size: 2.2em;
+  }
+
+  .hero .content {
+    width: 80%;
+  }
+
+  .middle {
+    padding: 80px;
+  }
+
+  .middle h1 {
+    font-size: 2em;
+  }
+
+  .middle h4 {
+    font-size: 1.2em;
+  }
+
+  .products .windows {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0px 100px;
+  }
+
+  .getQuote {
+    padding: 80px;
+  }
+
+  .getQuote .content h1 {
+    font-size: 2em;
+  }
+
+  .quotes {
+    padding: 160px;
+  }
+
+  .cards {
+    padding: 64px 100px;
+  }
+
+  .card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .card .content {
+    width: 100%;
+  }
+
+  .cta h1 {
+    width: 80%;
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .right-section {
+    width: 100%;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .nav {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .nav.active {
+    display: flex;
+  }
+
+  .top-bar {
+    height: auto;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .top-bar div {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  .contact {
+    width: 100%;
+  }
+
+  .hero {
+    padding: 40px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 1.8em;
+  }
+
+  .hero .content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .middle {
+    padding: 40px;
+  }
+
+  .middle h1 {
+    font-size: 1.8em;
+  }
+
+  .middle h4 {
+    font-size: 1em;
+  }
+
+  .products .windows {
+    grid-template-columns: 1fr;
+    padding: 0px 20px;
+  }
+
+  .getQuote {
+    grid-template-columns: 1fr;
+    padding: 40px;
+  }
+
+  .getQuote .content h1 {
+    font-size: 1.8em;
+  }
+
+  .quotes {
+    padding: 80px;
+  }
+
+  .cards {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 64px 20px;
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .cta h1 {
+    width: 90%;
+  }
 }
