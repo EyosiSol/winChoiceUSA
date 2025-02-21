@@ -386,7 +386,7 @@ form {
   text-align: center;
   font-style: italic;
   gap: 20px;
-  padding: 240px;
+  padding: 60px 240px;
   background-color: #1e3c7e;
   color: #fff;
   font-size: 1.3rem;
@@ -610,7 +610,7 @@ form {
   }
 
   .quotes {
-    padding: 160px;
+    padding: 80px   160px;
     text-align: center;
     font-style: italic;
   }
