@@ -397,7 +397,6 @@ form {
   grid-template-rows: repeat(3, 1fr);
   padding: 64px 220px;
   width: 100%;
-  border: 1px solid #000;
   height: 1500px;
 }
 
@@ -610,7 +609,7 @@ form {
   }
 
   .quotes {
-    padding: 80px   160px;
+    padding: 80px 160px;
     text-align: center;
     font-style: italic;
   }
@@ -745,7 +744,6 @@ form {
       70% 100%,
       0 100%
     );
-    
   }
 
   .getQuote .content h1 {
